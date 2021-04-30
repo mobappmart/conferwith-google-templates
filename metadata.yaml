@@ -1,0 +1,5 @@
+homepage: "https://conferwith.io"
+documentation: "https://conferwith.io"
+versions:
+  - sha: 7a547196c91561dc32be0112a7c91c430908462e
+    changeNotes: Initial release.
