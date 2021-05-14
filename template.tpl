@@ -119,7 +119,7 @@ log('serverUrl:', serverUrl);
 const onSuccess = () => {
   log('Script loaded successfully.');
 
-if (trackObject) {
+if (trackObject && serverUrl) {
   if(eventType == 'checkout') {
     callInWindow('sendRequest', serverUrl+'/api/checkout', trackObject);
   } else {
