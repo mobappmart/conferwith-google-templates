@@ -113,8 +113,7 @@ const trackObject = (function() {
   } 
 )();
 
-log('data:', trackObject);
-log('serverUrl:', serverUrl);
+log('data:'+ trackObject);
 
 const onSuccess = () => {
   log('Script loaded successfully.');
