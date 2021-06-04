@@ -80,7 +80,7 @@ const sendRequest = copyFromWindow('sendRequest');
 
 const sessionId =  dataLayer('sessionId');
 const products = dataLayer('products');
-const eventType = dataLayer('eventType');
+const eventType = data.eventType;
 const store = dataLayer('store');
 const product = dataLayer('product');
 const actor = dataLayer('actor');
